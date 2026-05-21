@@ -2,38 +2,42 @@
 
 Application web permettant de consulter la météo d’une commune française à partir d’un code postal.
 
-🔗 : [https://nitsuaf321.github.io/R209/](https://youyoubg5000-eng.github.io/td1-rd209/)
+🔗 Démo : https://nitsuaf321.github.io/R209/
 
 ---
 
-## 🚀 Fonctionnement
-
-L’application fonctionne en 2 étapes :
+## Fonctionnement
 
 ### 1. Recherche d’une commune
-- L’utilisateur saisit un code postal
-- L’application interroge l’API Geo du gouvernement
-- Une liste de communes correspondantes est affichée
+- Saisie d’un code postal
+- Récupération des communes via l’API Geo
+- Affichage dynamique des résultats
 
 ### 2. Affichage de la météo
-- L’utilisateur sélectionne une commune
-- Les données météo du jour sont affichées :
-  - 🌡️ Températures min / max
-  - 🌧️ Probabilité de pluie
-  - ☀️ Ensoleillement
+Une fois la commune sélectionnée, l’application affiche :
+- Températures min / max
+- Probabilité de pluie
+- Ensoleillement de la journée
 
 ---
 
-## 🎨 Interface
+## Interface
 
-- Design simple et moderne
-- Effet **glassmorphism**
-- Interface responsive (mobile / desktop)
-- Affichage dynamique sans rechargement
+- Design moderne et épuré
+- Effet glassmorphism
+- Responsive design
+- Mise à jour dynamique sans rechargement
 
 ---
 
-## 🛠️ Technologies
+## Technologies utilisées
+
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="45" height="45" alt="HTML5"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45" height="45" alt="CSS3"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45" height="45" alt="JavaScript"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" height="45" alt="Git"/>
+</p>
 
 - HTML5
 - CSS3
@@ -42,16 +46,19 @@ L’application fonctionne en 2 étapes :
 
 ---
 
-## 🔌 APIs utilisées
+## APIs utilisées
 
-- API Geo du gouvernement : https://geo.api.gouv.fr/
-- API MétéoConcept : https://api.meteo-concept.com/
+- API Geo du gouvernement  
+  https://geo.api.gouv.fr/
+
+- API MétéoConcept  
+  https://api.meteo-concept.com/
 
 ---
 
-## 🎯 Objectif
+## Objectifs du projet
 
 - Manipuler des API REST
-- Gérer des données JSON
-- Créer une interface dynamique
+- Exploiter des données JSON
 - Utiliser JavaScript asynchrone
+- Développer une interface responsive
