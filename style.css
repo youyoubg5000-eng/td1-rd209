@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    text-align: center;
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.formulaire,
+#resultat {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.formulaire div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.cache {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 22px;
+    }
+}
