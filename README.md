@@ -2,8 +2,7 @@
 
 Application web permettant de consulter la météo d’une commune française à partir d’un code postal.
 
-🔗 [https://nitsuaf321.github.io/R209/
-](https://youyoubg5000-eng.github.io/td1-rd209/)
+🔗 (https://youyoubg5000-eng.github.io/td1-rd209/)
 ---
 
 ## Fonctionnement
